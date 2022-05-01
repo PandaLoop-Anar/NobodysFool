@@ -312,6 +312,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
 .slide_img-block span {
   font-size: var(--font-size-h4-1);
