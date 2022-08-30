@@ -12,54 +12,56 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./responsive.style.css">
+    <link rel="stylesheet" href="./responsive.style.css" />
+    <!-- <script type="module" src="./index.js" defer></script> -->
   </head>
   <body>
-    <header class="authorisation-section">
-        <div class="container">
-          <div class="authorisation-block">
-            <div class="authorisation-bar">
-              <div class="authorisation">
-                <ul>
-                  <li><a href="#">Sign Up |</a></li>
-                  <li><a href="#">Login |</a></li>
-                  <li><a href="#">RSS Feeds |</a></li>
-                  <li><a href="#">Archived News</a></li>
-                </ul>
-              </div>
-              <div class="social-media">
-                <div class="icons">
-                  <a href="" class="icon" target="_blank"
-                    ><i class="fa-brands fa-linkedin-in"></i
-                  ></a>
-                  <a href="" class="icon" target="_blank"
-                    ><i class="fa-brands fa-twitter"></i
-                  ></a>
-                  <a href="" class="icon" target="_blank"
-                    ><i class="fa-brands fa-pinterest"></i
-                  ></a>
-                  <a href="" class="icon" target="_blank"
-                    ><i class="fa-brands fa-google-plus-g"></i
-                  ></a>
-                  <a href="" class="icon" target="_blank"
-                    ><i class="fa-solid fa-rss"></i
-                  ></a>
-                </div>
-              </div>
+    <header class="authorisation-section" id="authorisation-section">
+      <div class="container">
+        <div class="authorisation-block">
+          <div class="authorisation-bar">
+            <div class="authorisation">
+              <ul>
+                <li><a href="#">Sign Up |</a></li>
+                <li><a href="#">Login |</a></li>
+                <li><a href="#">RSS Feeds |</a></li>
+                <li><a href="#">Archived News</a></li>
+              </ul>
             </div>
-            <div class="hider-btn">
-              <span class="btn-show">+</span>
-              <span class="btn-hide">-</span>
+            <div class="social-media">
+              <div class="icons">
+                <a href="" class="icon" target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="" class="icon" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="" class="icon" target="_blank"
+                  ><i class="fa-brands fa-pinterest"></i
+                ></a>
+                <a href="" class="icon" target="_blank"
+                  ><i class="fa-brands fa-google-plus-g"></i
+                ></a>
+                <a href="" class="icon" target="_blank"
+                  ><i class="fa-solid fa-rss"></i
+                ></a>
+              </div>
             </div>
           </div>
+          <div class="hider-btn" id="toggle-btn">
+            <!-- <span class="btn-show">+</span> -->
+            <span class="btn-hide">-</span>
+          </div>
         </div>
-      </header>
-    <header>
-      <section class="navigaton-section">
-        <div class="container">
-          <div class="nav-bar">
-            <nav class="nav">
-              <button class="dropdown-btn primary-btn">MENU ≣</button>  
+      </div>
+    </header>
+    <main>
+      <header>
+        <section class="navigaton-section">
+          <div class="container">
+            <div class="nav-bar">
+              <nav class="nav" id="navContainer">
+                <!-- <button class="dropdown-btn primary-btn">MENU ≣</button>  
               <ul class="nav-items">
                 <li class="nav-item nav-item_active">
                   <a href="#">homepage</a>
@@ -94,30 +96,30 @@
                   <div class="line"></div>
                 </li>
               </ul>
-              <div class="liner"></div>
-            </nav>
-            <div class="title-bar">
-              <div class="title">
-                <h1>NobodysFool</h1>
-                <span>Free PSD Website Template</span>
-              </div>
-              <div class="search">
-                <form action="#" method="get">
-                  <input type="text" placeholder="Search Our Website..." />
-                  <button type="submit" class="primary-btn">Search</button>
-                </form>
+              <div class="liner"></div> -->
+              </nav>
+              <div class="title-bar">
+                <div class="title">
+                  <h1>NobodysFool</h1>
+                  <span>Free PSD Website Template</span>
+                </div>
+                <div class="search">
+                  <form action="#" method="get">
+                    <input type="text" placeholder="Search Our Website..." />
+                    <button type="submit" class="primary-btn">Search</button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </header>
-    <main>
+        </section>
+      </header>
+      <!-- <main> -->
       <section class="slider-section">
         <div class="slider_border-top"></div>
         <div class="container">
-          <div class="slider">
-            <div class="slider_btns">
+          <div class="slider" id="sliderContainer">
+            <!-- <div class="slider_btns">
               <div class="slider_btn"></div>
               <div class="slider_btn"></div>
               <div class="slider_btn"></div>
@@ -137,24 +139,24 @@
                 </div>
                 <div class="slide_img-block">
                   <div style="background-image: url(./imgs/museum-maxxi-italy.jpg);">
-                    <!-- <span>550 x 440px</span> -->
+                    <span>550 x 440px</span>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="slider_border-bottom"></div>
       </section>
       <section class="cards-section">
         <div class="container">
-          <div class="intro">
-            <div class="intro_img">
+          <div class="intro" id="cardsBlockContainer">
+            <!-- <div class="intro_img">
               <img src="./imgs/devices.png" alt="devices" />
             </div>
             <div class="intro_cards">
               <div class="card">
-                <div class="card_img"><span>85 x 80px</span></div>
+                <div class="card_img" style="background-image: url();"><span>85 x 80px</span></div>
                 <div class="card_text">
                   <h4>Vivamuslibero Augue</h4>
                   <p>
@@ -163,41 +165,8 @@
                     pellentesque.
                   </p>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card_img"><span>85 x 80px</span></div>
-                <div class="card_text">
-                  <h4>Vivamuslibero Augue</h4>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nunc non diam erat. In fringilla massa ut nisi ullamcorper
-                    pellentesque.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card_img"><span>85 x 80px</span></div>
-                <div class="card_text">
-                  <h4>Vivamuslibero Augue</h4>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nunc non diam erat. In fringilla massa ut nisi ullamcorper
-                    pellentesque.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card_img"><span>85 x 80px</span></div>
-                <div class="card_text">
-                  <h4>Vivamuslibero Augue</h4>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nunc non diam erat. In fringilla massa ut nisi ullamcorper
-                    pellentesque.
-                  </p>
-                </div>
-              </div>
-            </div>
+              </div>              
+            </div> -->
           </div>
           <div class="shout">
             <div class="shout_text">
@@ -221,9 +190,9 @@
               <div>
                 <h4>about us</h4>
               </div>
-              <div class="info-block_about-us">
-                <div class="about-us_img-block">
-                  <div>
+              <div class="info-block_about-us" id="aboutUsContainer">
+                <!-- <div class="about-us_img-block">
+                  <div style="background-image: url();">
                     <span>215 X 90 px</span>
                   </div>
                 </div>
@@ -233,7 +202,7 @@
                   pellentesque. Quisque non luctus sem. Nullam non magna vel
                   nisi posuere bibendum vitae sed dui.
                 </p>
-                <a href="#" class="primary-link">Read More »</a>
+                <a href="#" class="primary-link">Read More »</a> -->
               </div>
             </div>
             <div class="info-block">
@@ -241,45 +210,10 @@
                 <h4>Quick Links</h4>
               </div>
               <div class="info-block_links">
-                <ul>
-                  <li>
+                <ul id="quickLinksContainer">
+                  <!-- <li>
                     <a href="#" class="primary-link"> Lorem ipsum dolor sit </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link"> Amet consectetur </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link"> Praesent vel sem id </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link">
-                      Curabitur hendrerit est
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link">
-                      Aliquam eget erat nec sapien
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link"> Cras id augue nunc </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link"> In nec justo non </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link">
-                      Vivamus mollis enim ut
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link">
-                      Curabitur hendrerit est
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-link"> Sed a nulla urna </a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
@@ -287,8 +221,8 @@
               <div>
                 <h4>Lastest Blog Posts</h4>
               </div>
-              <div class="info-block_blogs">
-                <div class="blog">
+              <div class="info-block_blogs" id="blogPostsContainer">
+                <!-- <div class="blog">
                   <h5>Post Title</h5>
                   <h6>Admin, domainname.com</h6>
                   <small>Friday, 6th April 2000</small>
@@ -307,7 +241,7 @@
                     feguiat mi a tellus consequat imperdiet.
                   </p>
                   <a href="#" class="primary-link">Read More »</a>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="info-block">
@@ -357,6 +291,7 @@ Message</textarea
         </div>
       </section>
     </footer>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
 <!-- Created by Anar Mamedovi -->
