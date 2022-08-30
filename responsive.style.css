@@ -20,7 +20,11 @@
   .nav a {
     margin-right: 0.7em;
   }
-
+/* slider */
+  .slider {
+    height: auto;
+    min-height: 390px;
+  }
   .slide_text-block {
     width: 33vw;
   }
@@ -160,6 +164,10 @@
     line-height: 36px;
   }
   /* Slider  */
+  .slider {
+    height: auto;
+    min-height: 355px;
+  }
   .slider_btns {
     bottom: 10px;
   }
@@ -239,6 +247,9 @@
     width: 120px;
   }
   /* Slider  */
+  .slider {
+    min-height: 500px;
+  }
   .slide {
     flex-flow: column wrap;
     align-items: center;
