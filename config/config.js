@@ -1,0 +1,2 @@
+
+export const SLIDES_CHANGING_TIME= 5000;
